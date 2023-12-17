@@ -1,0 +1,27 @@
+#!/bin/bash
+echo " enter the name of a day "
+read day
+if [ $day ==  sunday ]
+then
+echo " $day is holiday "
+elif [ $day ==  saturday ]
+then
+echo " $day is holiday "
+elif [ $day ==  monday ]
+then
+echo " $day is working day "
+elif [ $day ==  tuesday ]
+then
+echo " $day is working day "
+elif [ $day ==  wednesday ]
+then
+echo " $day is working day "
+elif [ $day ==  thursday ]
+then
+echo " $day is working day "
+elif [ $day ==  friday ]
+then
+echo " $day is working day "
+else
+echo " not a valid day "
+fi
